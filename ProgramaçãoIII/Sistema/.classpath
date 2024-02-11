@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Sistema/Sistema para famácia com JFrame/Sistema de Vendas com JFrame/src"/>
+	<classpathentry kind="lib" path="G:/Documentos/II ano (Semestre2)/ProgramaçãoIII/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33.jar"/>
+	<classpathentry kind="output" path="Sistema/Sistema para famácia com JFrame/Sistema de Vendas com JFrame/build/classes"/>
+</classpath>

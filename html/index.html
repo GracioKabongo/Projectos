@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+	<meta charset="UTF-8">
+	<title> Nome: Grácio Kabongo, Turma: LECC21, Codigo: 6254 </title>
+	<style>
+		body{
+			background-color: lightblue;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: 20px;
+			text-align: justify;
+			color:Black		
+		}
+	</style>
+</head>
+<body>
+	<h1>Grácio Kabongo</h1>
+	<h1>Programação Web</h1>
+	<p>
+		<strong>HTML(HyperText Markup Language) – Linguagem standard para web_ é a linguagem para descrever a estrutura das páginas web</strong>
+	</p>
+	<p>
+		<strong>CSS( Cascading Style Sheet) – Look & layout_ é a linguagem para descrever a apresentação das páginas da web, incluindo cores, layout e fontes.</strong>
+	</p>
+	<p>
+		<strong>JS (JAVASCRIPT WEB )– Scripting para comportamento dinâmico_ é um código de programa que não precisa de pré-processamento </strong>
+	</p>
+	<table border = "1">
+		<tr>
+			<th></th>
+			<th>Maputo</th>
+			<th>Vilanculos</th>
+			<th>Inhambane</th>
+			<th>Beira</th>
+		</tr>
+		<tr>
+			<th>Maputo</th>
+			<td></td>
+			<td>276</td>
+			<td>228</td>
+			<td>448</td>
+		</tr>
+		<tr>
+			<th>Vilanculos</th>
+			<td>276</td>
+			<td></td>
+			<td>127</td>
+			<td>132</td>
+		</tr>
+		<tr>
+			<th>Inhambane</th>
+			<td>228</td>
+			<td>127</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Beira</th>
+			<td>448</td>
+			<td>132</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<hr>
+	<h1>Data: 11/08/2023 </h1>
+	<img src="Imagem/ISUTC1.jpg" alt="Logotipo" style= "width:100px;height:100px;">
+	<br>
+	<p>Prolong. da Av. Kim II Sung (IFT/TDM) Edifício <br>
+	D1 <br>
+	Maputo, Moçambique</p>
+
+	<p><a href="www.facebook.com/isutc">www.facebook.com/isutc</a> 
+	<br><a href="www.transcom.co.mz/isutc"><strong>www.transcom.co.mz/isutc</strong></a></p>
+	<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+		Click me to display Actual Date and Time
+	</button>
+	<p id="demo"></p>
+
+	<hr>
+	<a href="https://www.isutc.ac.mz/" target="_blank">Link ISUTC</a>
+	<br>
+	<br>
+	<iframe width="420" height="345" src="https://www.youtube.com/embed/OHN8Ze4te70?si=438oi69W6WUa_X3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<br>
+	<br>
+	<hr>
+	<h3>Semana 8</h3>
+	<h2>Lampada</h2>
+	<script>
+		function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "pic_bulboff.gif"
+            } else {
+                pic = "pic_bulbon.gif"
+            }
+            document.getElementById('myImage').src = pic;
+        }
+	</script>
+	<div>
+		<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+      <p>
+      <button type="button" onclick="light(1)">Light On</button>
+      <button type="button" onclick="light(0)">Light Off</button>
+      </p>
+	</div>
+
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+
+	 <ol>
+		<li>Primeiro item</li>
+		<li>Segundo item</li>
+		<li>Terceiro item</li>
+	 </ol>
+
+	 <dl>
+		<dt>Termo 1</dt>
+		<dd>Definição 1</dd>
+		<dt>Termo 2</dt>
+		<dd>Definição 2</dd>
+	 </dl>	 
+</body>
+</html>

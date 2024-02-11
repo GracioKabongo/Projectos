@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Admin\Documents\ISUTC\2ºANO\2ºSEMSETRE\Programacao_III\anos_anteriores\.metadata\.plugins\org.eclipse.jdt.core
+1552239779.index
+1851833436.index
+1865797976.index

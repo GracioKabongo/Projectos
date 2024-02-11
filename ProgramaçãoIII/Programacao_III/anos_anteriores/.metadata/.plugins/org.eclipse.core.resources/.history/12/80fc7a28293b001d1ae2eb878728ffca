@@ -1,0 +1,11 @@
+package app;
+
+import view.MainFrame;
+
+public class App {
+
+	private void maim() {
+		// TODO Auto-generated method stub
+		new MainFrame();
+	}
+}

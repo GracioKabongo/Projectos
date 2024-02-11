@@ -1,0 +1,53 @@
+package view;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.SwingConstants;
+
+public class BottomPanel extends JPanel {
+
+	private JLabel copyright;
+	private JPanel btnPanel;
+	private JPanel centerPanel;
+	
+	private JPanel eastPanel;
+	private JScrollPane scrollPane;
+	private JTextArea txtArea;
+	
+	// btnNames
+	private final String[] btnNames = {"Limpar", "Submeter", "Programador"};
+	
+	public BottomPanel () {
+		
+		this.setLayout(new BorderLayout());
+		
+		// lblConfig
+		copyright = new JLabel("=============Direitos reservados ao autor @Shelton============");
+		copyright.setHorizontalAlignment(SwingConstants.CENTER);
+		
+		// btnPanel
+		btnPanel = new JPanel(new GridLayout(3, 1, 4, 4));
+		for(String name: btnNames) {
+			btnPanel.add(new JButton(name));
+		}
+		
+		// centerPanel
+		
+		// eastPanel
+		eastPanel = new JPanel(new GridLayout(1,1));
+		txtArea = new JTextArea(10,20);
+		scrollPane = new JScrollPane(txtArea);
+		eastPanel.add(scrollPane);
+		
+		
+		this.add(BorderLayout.EAST, eastPanel);
+		this.add(BorderLayout.WEST,btnPanel);
+		this.add(BorderLayout.SOUTH, copyright);
+	}
+}

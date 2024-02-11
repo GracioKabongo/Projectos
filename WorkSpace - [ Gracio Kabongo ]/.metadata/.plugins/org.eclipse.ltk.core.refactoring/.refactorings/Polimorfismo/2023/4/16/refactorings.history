@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Polimorfismo&apos;&#x0D;&#x0A;- Original project: &apos;Polimorfismo&apos;&#x0D;&#x0A;- Original element: &apos;Polimorfismo/src/pacoteZoologico&apos;" description="Delete element" element1="/src&lt;pacoteZoologico" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1681711549883" subPackages="false" version="1.0"/>
+</session>

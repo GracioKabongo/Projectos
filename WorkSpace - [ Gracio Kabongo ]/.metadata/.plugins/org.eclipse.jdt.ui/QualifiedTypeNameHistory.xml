@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="pacoteAdministrador.Administrador"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="pacoteAnimal.Animal"/>
+    <fullyQualifiedTypeName name="pacoteElectrodomestico.Electrodomestico"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="pacoteNoticiario.Noticiario"/>
+    <fullyQualifiedTypeName name="pacoteVeiculo.Veiculo"/>
+    <fullyQualifiedTypeName name="primeiroExercicio.main"/>
+    <fullyQualifiedTypeName name="pacoteAluno.Aluno"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="filme.Filme"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">	
+   <title>Nome: [Inserir nome aqui], Turma, Código</title>
+ <style>
+    body{
+        background-color:lightblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        Titulo-color:black;
+	      
+    }
+ </style>
+</head>
+<body>
+  <div>
+   <h1>Nome:Harmonico, Turma:LECC, Código:6856</h1>
+     <p>
+      HTML (HyperText Markup Language) – Linguagem padrão para web_ é a linguagem para descrever a estrutura das páginas web.<br>
+      CSS (Cascading Style Sheet) – Look & layout_ é a linguagem para descrever a apresentação das páginas da web, incluindo cores, layout e fontes.<br>
+      JS (JAVASCRIPT WEB) – Scripting para comportamento dinâmico_ é um código de programa que não precisa de    pré-processamento.
+    </p>
+  </div>
+    <div>
+      <table border="1">
+      <tr>
+        <th></th>
+        <th>Maputo</th>
+        <th>Vilanculos</th>
+        <th>Inhambane</th>
+        <th>Beira</th>
+      </tr>
+      <tr>
+        <td>Maputo</td>
+        <td></td>
+        <td>276</td>
+        <td>228</td>
+        <td>448</td>
+      </tr>
+      <tr>
+        <td>Vilanculos</td>
+        <td>276</td>
+        <td></td>
+        <td>127</td>
+        <td>132</td>
+      </tr>
+      <tr>
+        <td>Inhambane</td>
+        <td>228</td>
+        <td>127</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Beira</td>
+        <td>448</td>
+        <td>132</td>
+        <td></td>
+        <td></td>
+      </tr>
+ 
+    </table>
+  </div>
+
+    <hr>
+     <br>
+     <br>	
+     <hr>	
+       <h1>Aula 02</h1>
+          <img src="Imagem/ISUTC.jpg" alt="Logotipo" style="width: 100px;height: 100px;;">
+      <br>
+        <p>Prolog. da Av. Kim ll Sung(IFt/Tdm) Edíficio <br>
+          D1<br>
+          Maputo,Moçambique</p>
+          <p><a href="www.facebook.com/isutc">www.facebook.com/isutc</a> <br><a href="www.transcom.co.mz/isutc"><strong>www.transcom.co.mz/isutc</strong></a></p>
+      <hr>
+      <div>   
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+          click me to display actual Date and Time
+        </button>
+        <p id="demo"></p>
+      </div>   
+      <hr>
+       <a href="https://www.isutc.ac.mz/
+       " target="_blank">LINK FENIX ISUTC</a>
+       <br>
+       <br>
+       <iframe width="420" height="345" src="https://www.youtube.com/embed/OHN8Ze4te70?si=NdLUF9hSxF-tZXlZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <hr>
+       <button onclick="imprimirIdentificacao()">Imprimir Identificação</button>
+    <button onclick="imprimirNumerosDe1A10()">Imprimir Números de 1 a 10</button>
+    <button onclick="imprimirImparesMenoresQue100()">Imprimir Ímpares Menores que 100</button>
+    <button onclick="imprimirTabuadaDo8()">Imprimir Tabuada do 8</button>
+    <button onclick="calcularSomaDe1A10()">Calcular Soma de 1 a 10</button>
+    <p id="output"></p>
+
+    <script>
+        // Função para imprimir a identificação
+        function imprimirIdentificacao() {
+            document.getElementById("output").innerHTML = "Identificação: [Seu Nome/Apelido]";
+        }
+
+        // Função para imprimir números de 1 a 10
+        function imprimirNumerosDe1A10() {
+            var numeros = "";
+            for (var i = 1; i <= 10; i++) {
+                numeros += i + " ";
+            }
+            document.getElementById("output").innerHTML = "Números de 1 a 10: " + numeros;
+        }
+
+        // Função para imprimir números ímpares menores que 100
+        function imprimirImparesMenoresQue100() {
+            var impares = "";
+            for (var i = 1; i < 100; i += 2) {
+                impares += i + " ";
+            }
+            document.getElementById("output").innerHTML = "Ímpares Menores que 100: " + impares;
+        }
+
+        // Função para imprimir a tabuada do número 8
+        function imprimirTabuadaDo8() {
+            var tabuada = "";
+            for (var i = 1; i <= 10; i++) {
+                tabuada += "8 x " + i + " = " + (8 * i) + "<br>";
+            }
+            document.getElementById("output").innerHTML = "Tabuada do 8:<br>" + tabuada;
+        }
+
+        // Função para calcular a soma dos números de 1 a 10
+        function calcularSomaDe1A10() {
+            var soma = 0;
+            for (var i = 1; i <= 10; i++) {
+                soma += i;
+            }
+            document.getElementById("output").innerHTML = "Soma dos Números de 1 a 10: " + soma;
+        }
+
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "pic_bulboff.gif"
+            } else {
+                pic = "pic_bulbon.gif"
+            }
+            document.getElementById('myImage').src = pic;
+        }
+    </script>
+    <div class="aulas" id="aula"8>
+      <h1>Lampada</h1>
+      <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+      <p>
+      <button type="button" onclick="light(1)">Light On</button>
+      <button type="button" onclick="light(0)">Light Off</button>
+      </p>
+  </div>
+</body>
+</html>

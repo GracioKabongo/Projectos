@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Objeto de Impressão</title>
+</head>
+<body>
+    <button onclick="imprimirIdentificacao()">Imprimir Identificação</button>
+    <button onclick="imprimirNumerosDe1A10()">Imprimir Números de 1 a 10</button>
+    <button onclick="imprimirImparesMenoresQue100()">Imprimir Ímpares Menores que 100</button>
+    <button onclick="imprimirTabuadaDo8()">Imprimir Tabuada do 8</button>
+    <button onclick="calcularSomaDe1A10()">Calcular Soma de 1 a 10</button>
+    <p id="output"></p>
+
+    <script>
+        // Função para imprimir a identificação
+        function imprimirIdentificacao() {
+            document.getElementById("output").innerHTML = "Identificação: [Seu Nome/Apelido]";
+        }
+
+        // Função para imprimir números de 1 a 10
+        function imprimirNumerosDe1A10() {
+            var numeros = "";
+            for (var i = 1; i <= 10; i++) {
+                numeros += i + " ";
+            }
+            document.getElementById("output").innerHTML = "Números de 1 a 10: " + numeros;
+        }
+
+        // Função para imprimir números ímpares menores que 100
+        function imprimirImparesMenoresQue100() {
+            var impares = "";
+            for (var i = 1; i < 100; i += 2) {
+                impares += i + " ";
+            }
+            document.getElementById("output").innerHTML = "Ímpares Menores que 100: " + impares;
+        }
+
+        // Função para imprimir a tabuada do número 8
+        function imprimirTabuadaDo8() {
+            var tabuada = "";
+            for (var i = 1; i <= 10; i++) {
+                tabuada += "8 x " + i + " = " + (8 * i) + "<br>";
+            }
+            document.getElementById("output").innerHTML = "Tabuada do 8:<br>" + tabuada;
+        }
+
+        // Função para calcular a soma dos números de 1 a 10
+        function calcularSomaDe1A10() {
+            var soma = 0;
+            for (var i = 1; i <= 10; i++) {
+                soma += i;
+            }
+            document.getElementById("output").innerHTML = "Soma dos Números de 1 a 10: " + soma;
+        }
+    </script>
+</body>
+</html>

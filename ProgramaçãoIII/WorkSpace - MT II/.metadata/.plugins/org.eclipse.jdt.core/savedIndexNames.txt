@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+G:\Documentos\II ano (Semestre2)\ProgramaçãoIII\WorkSpace - MT II\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1742277079.index
+1167249723.index
